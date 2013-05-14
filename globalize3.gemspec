@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     s.add_dependency 'activerecord', '>= 4.0.0.beta'
     s.add_dependency 'activemodel', '>= 4.0.0.beta'
   end
-  s.add_dependency 'paper_trail',  '~> 2'
+  #s.add_dependency 'paper_trail',  '~> 2'
 
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'mocha'

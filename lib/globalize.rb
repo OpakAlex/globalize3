@@ -7,6 +7,8 @@ module Globalize
   autoload :ActiveRecord, 'globalize/active_record'
   autoload :Versioning,   'globalize/versioning'
 
+  mattr_accessor :available_locales
+
   class << self
     def locale
       read_locale || I18n.locale
